@@ -1,6 +1,11 @@
 # dsa-study
 This repository is dedicated to document my journey learning deeply DSA concepts and fundalmentals
 
+
+- Algorithms patterns learned:
+  - Running Maximum
+    Keep track of the best value seen so far.
+    
 - Roadmap
     - Array
         - Keywords
