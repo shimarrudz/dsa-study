@@ -1,34 +1,85 @@
 # dsa-study
-This repository is dedicated to document my journey learning deeply DSA concepts and fundalmentals
 
+This repository documents my journey learning Data Structures and Algorithms (DSA), focusing on understanding concepts instead of memorizing solutions.
 
-- Algorithms patterns learned:
-  - Running Maximum
-    Keep track of the best value seen so far.
-    
-- Roadmap
-    - Array
-        - Keywords
-            - Traversal: Travessia (Visiting specific points of an array)
-            e: 'different ways traversing an array’
-            - Iterating: Iterar (Iterate through every element)
-        - Description: A collection of elements of the same data type and is stored in contiguous locations
-        [10, 20, 30, 40]
-        - Access: O(1): **memoryAddress = baseAddress + (index × elementSize)**
-        - Insert: O(n)
-        - Deletion: O(n)
-            
-            
-        - Fundamentals operations
-        - Access (Retrieve a value using its index)
-          arr[i]
-        - Traverse (Visit every element in the array (collection))
-          10 → 20 → 30 → ….. 
-        - Compare (Compare values to make decisions)
-          array[i] > max
-        - Update (Modify an existing element)
-          arr[i] = newValue;
-        - ⭐ Swap (Exchange two elements)
-          int temp = arr[i]
-          arr[i] = arr[j]
-          arr[j] = temp
+## Algorithm Patterns Learned
+
+- Running Maximum
+  - Keep track of the largest value seen so far.
+
+- Running Minimum
+  - Keep track of the smallest value seen so far.
+
+- Accumulator
+  - Accumulate information while traversing.
+  - Example: Running Sum
+
+- Counter
+  - Count elements that satisfy a condition.
+
+- Search
+  - Traverse until a target element is found.
+
+---
+
+## Roadmap
+
+- [x] Arrays
+- [ ] Linked Lists
+- [ ] Stacks
+- [ ] Queues
+- [ ] HashMaps
+- [ ] Sets
+- [ ] Binary Search Trees
+- [ ] Heaps
+- [ ] Graphs
+
+---
+
+## Arrays
+
+### Description
+
+A collection of elements of the same data type stored in contiguous memory locations.
+
+```text
+[10, 20, 30, 40]
+```
+
+### Keywords
+
+- Traversal
+  - Visiting every element in a collection.
+
+- Iteration
+  - Looping through each element.
+
+### Big-O
+
+- Access: O(1)
+- Traverse/Search: O(n)
+- Insert: O(n)
+- Delete: O(n)
+
+### Memory
+
+```text
+memoryAddress = baseAddress + (index × elementSize)
+```
+
+### Fundamental Operations
+
+- Access
+- Traverse
+- Compare
+- Update
+- Swap
+
+---
+
+## Problems Solved
+
+- ✅ Find Largest
+- ✅ Find Smallest
+- ✅ Running Sum of 1D Array
+- ✅ Two Sum
