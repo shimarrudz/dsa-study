@@ -20,6 +20,11 @@ This repository documents my journey learning Data Structures and Algorithms (DS
 - Search
   - Traverse until a target element is found.
 
+- Digit Manipulation
+  - Process digits using arithmetic instead of converting to a string.
+  - `% 10` → Get the last digit.
+  - `/ 10` → Remove the last digit.
+
 ---
 
 ## Roadmap
@@ -75,6 +80,15 @@ memoryAddress = baseAddress + (index × elementSize)
 - Update
 - Swap
 
+### Common Techniques
+
+- Running Maximum
+- Running Minimum
+- Running Sum
+- Counter
+- Search
+- Digit Counting
+
 ---
 
 ## Problems Solved
@@ -82,4 +96,6 @@ memoryAddress = baseAddress + (index × elementSize)
 - ✅ Find Largest
 - ✅ Find Smallest
 - ✅ Running Sum of 1D Array
-- ✅ Two Sum
+- ✅ Find Numbers with Even Number of Digits (String)
+- ✅ Find Numbers with Even Number of Digits (Math)
+- ✅ Two Sum (HashMap)
