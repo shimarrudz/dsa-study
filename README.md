@@ -25,6 +25,11 @@ This repository documents my journey learning Data Structures and Algorithms (DS
   - `% 10` → Get the last digit.
   - `/ 10` → Remove the last digit.
 
+- Two Pointers
+  - Use two indices moving toward each other.
+  - Common in sorted arrays.
+  - Reduces many O(n²) problems to O(n).
+
 ---
 
 ## Roadmap
@@ -98,4 +103,4 @@ memoryAddress = baseAddress + (index × elementSize)
 - ✅ Running Sum of 1D Array
 - ✅ Find Numbers with Even Number of Digits (String)
 - ✅ Find Numbers with Even Number of Digits (Math)
-- ✅ Two Sum (HashMap)
+- ✅ Two Sum II (Two Pointers)
